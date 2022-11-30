@@ -1,0 +1,94 @@
+---
+title: 常用(知识)命令-函数-库
+abbrlink: 
+date: 
+tags:
+    - FrontEnd
+---
+
+## My Learning Materials
+
+### os
+
+> - 1. ```python
+>      1. current_path = os.path.dirname(__file__)# 当前路径  
+>      
+>      2. parent_path = os.path.dirname(current_path)# 上一级路径（父级路径）
+>      
+>      3. os.path.pardir# 父目录
+>      
+>      4. os.path.abspath# 绝对路径
+>      
+>      5. import os.path
+>         base_path = os.path.dirname(os.path.realpath(__file__))  # 获取当前路径
+>         file_path = os.path.join(base_path, "piDigits.txt")
+>      
+>         with open(file_path,'r') as file_object:
+>             lines = file_object.readlines()
+>      
+>             for line in lines:
+>             print line.rstrip()  #意思就是你想去掉字符串里面的哪些字符，那么你就把这些字符当参数传入。此函数只会删除头和尾的字符，中间的不会删除。）如果strip()的参数为空，那么会默认删除字符串头和尾的空白字符(包括\n，\r，\t这些)。
+>      
+>      6. https://blog.csdn.net/qq_29592829/article/details/83151499 #OS的常用函数，超链接如下：            
+>      ```
+>
+>      [os的常用函数](https://blog.csdn.net/qq_29592829/article/details/83151499)
+>
+> - [【Python】【工作级】【科目二】python工作级科目二复习资料 - 张帅的博客 (huawei.com)](http://3ms.huawei.com/km/blogs/details/9227569)
+
+### dockerfile演示
+
+​    [dockerfile演示](https://blog.csdn.net/hailang2ll/article/details/104489630)
+
+```python
+ docker入门教程翻译自docker官方网站的Docker getting started 教程，官方网站：https://docs.docker.com/linux/started/
+
+  Docker官方网站专门有一个页面来存储所有可用的镜像，网址是： index.docker.io
+
+docker入门教程：https://www.docker.org.cn/book/docker/docker-push-image-13.html
+
+https://blog.csdn.net/hailang2ll/article/details/104489630
+    
+```
+
+  
+
+[Python常用快捷键](https://baijiahao.baidu.com/s?id=1694547491103339271&wfr=spider&for=pc)
+
+[CSDN](https://www.csdn.net/)
+
+[Python MySQL – mysql-connector 驱动 | 菜鸟教程 (runoob.com)](https://www.runoob.com/python3/python-mysql-connector.html)
+
+[驱动 | 菜鸟教程 (runoob.com)](https://www.runoob.com)
+
+[图像修复](https://github.com/zengyh1900/Awesome-Image-Inpainting)
+
+[图像修复paper](https://paperswithcode.com/task/image-inpainting)
+
+[AI 领域八大干货](https://blog.csdn.net/sinat_28442665/article/details/113738818)
+
+[图像处理](https://so.csdn.net/so/search?q=%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86&spm=1001.2014.3001.7363)
+
+[AI磨励学博客](https://positive.blog.csdn.net/?type=blog)
+
+[yolox_voc](https://www.zhihu.com/question/482419414)
+
+画图、xml   json  验证
+
+ahead  Python画分割图、有就转，无就 理解coco含义赋值。
+
+
+
+DOCO镜像
+
+
+
+[AI行业新闻知识](https://www.xianjichina.com/special_1508/column_3)
+
+[ 代码随想录 ](https://programmercarl.com/前序/程序员简历.html#拿不准的绝对不要写在简历上)
+
+[intelliJ IDEA](https://code-with-me.jetbrains.com)
+
+[行为动作](https://github.com/aakash2016/blog-codes)
+
+[图像质量评估](
