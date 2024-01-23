@@ -9,3 +9,5 @@ F.interpolate(input, size=None, scale_factor=None, mode='nearest', align_corners
 双三次插值（Bicubic Interpolation）：在双线性插值的基础上，使用目标位置周围的16个像素值进行加权平均来计算插值值。这种方法比双线性插值更平滑，但计算复杂度更高。适用于图像放大、缩小和旋转等变换。
 根据目前的实践和研究，双线性插值是最常用的插值方法，因为它在保持图像平滑性的同时，也能够较好地保留图像的细节。最近邻插值和双三次插值在某些特定的应用场景下也有一定的应用，但相对而言使用较少。
 ```
+
+在Repconv中，激活函数的选择，目前发现ReLU在训练goldyolo时，比Siou训练后检出率高一丢丢
